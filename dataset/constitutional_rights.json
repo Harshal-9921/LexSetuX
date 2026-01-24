@@ -1,0 +1,32 @@
+[
+  {
+    "right": "Right to Equality (Article 14-18)",
+    "description": "Equality before law, prohibition of discrimination, equality of opportunity",
+    "article": "14-18"
+  },
+  {
+    "right": "Right to Freedom (Article 19-22)",
+    "description": "Freedom of speech and expression, assembly, association, movement, residence, profession",
+    "article": "19-22"
+  },
+  {
+    "right": "Right against Exploitation (Article 23-24)",
+    "description": "Prohibition of traffic in human beings and forced labor, prohibition of child labor",
+    "article": "23-24"
+  },
+  {
+    "right": "Right to Freedom of Religion (Article 25-28)",
+    "description": "Freedom of conscience, free profession, practice and propagation of religion",
+    "article": "25-28"
+  },
+  {
+    "right": "Right to Life and Personal Liberty (Article 21)",
+    "description": "Protection of life and personal liberty, includes right to shelter, health, education",
+    "article": "21"
+  },
+  {
+    "right": "Right to Constitutional Remedies (Article 32)",
+    "description": "Right to move Supreme Court for enforcement of fundamental rights",
+    "article": "32"
+  }
+]

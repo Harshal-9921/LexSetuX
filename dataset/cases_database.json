@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Kesavananda Bharati v. State of Kerala",
+    "court": "Supreme Court of India",
+    "year": "1973",
+    "citation": "AIR 1973 SC 1461",
+    "outcome": "Landmark - Basic structure doctrine",
+    "summary": "Established the doctrine of basic structure - certain features of the Constitution cannot be amended",
+    "key_points": [
+      "Basic structure of Constitution is inviolable",
+      "Parliament cannot amend basic features",
+      "Fundamental rights are part of basic structure"
+    ],
+    "category": "Constitutional Law"
+  },
+  {
+    "title": "Maneka Gandhi v. Union of India",
+    "court": "Supreme Court of India",
+    "year": "1978",
+    "citation": "AIR 1978 SC 597",
+    "outcome": "Expanded Article 21",
+    "summary": "Expanded the scope of Article 21 (Right to Life) to include right to travel, fair procedure",
+    "key_points": [
+      "Article 21 includes right to travel abroad",
+      "Procedural fairness is essential",
+      "Due process of law required"
+    ],
+    "category": "Constitutional Law"
+  },
+  {
+    "title": "Vishaka v. State of Rajasthan",
+    "court": "Supreme Court of India",
+    "year": "1997",
+    "citation": "AIR 1997 SC 3011",
+    "outcome": "Guidelines for sexual harassment",
+    "summary": "Laid down guidelines for prevention of sexual harassment at workplace",
+    "key_points": [
+      "Sexual harassment violates fundamental rights",
+      "Employers must provide safe work environment",
+      "Preventive measures required"
+    ],
+    "category": "Employment Law"
+  },
+  {
+    "title": "Shanti Star Builders v. Narayan Totame",
+    "court": "Supreme Court of India",
+    "year": "1990",
+    "citation": "AIR 1990 SC 630",
+    "outcome": "Tenant rights protection",
+    "summary": "Upheld tenant rights against illegal eviction, emphasized need for proper notice",
+    "key_points": [
+      "Proper notice required for eviction",
+      "Tenant rights must be protected",
+      "Due process must be followed"
+    ],
+    "category": "Property Law"
+  }
+]

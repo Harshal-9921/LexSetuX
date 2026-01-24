@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Adv. Rajesh Sharma",
+    "specialization": [
+      "Property Law",
+      "Civil Law"
+    ],
+    "experience_years": 12,
+    "location": "Mumbai, Maharashtra",
+    "rating": 4.5,
+    "cases_won": 85,
+    "consultation_fee": 2000
+  },
+  {
+    "name": "Adv. Priya Deshmukh",
+    "specialization": [
+      "Family Law",
+      "Criminal Law"
+    ],
+    "experience_years": 8,
+    "location": "Delhi",
+    "rating": 4.8,
+    "cases_won": 120,
+    "consultation_fee": 2500
+  },
+  {
+    "name": "Adv. Amit Kumar",
+    "specialization": [
+      "Employment Law",
+      "Corporate Law"
+    ],
+    "experience_years": 15,
+    "location": "Bangalore, Karnataka",
+    "rating": 4.7,
+    "cases_won": 200,
+    "consultation_fee": 3000
+  }
+]
