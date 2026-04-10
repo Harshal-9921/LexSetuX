@@ -1,0 +1,1112 @@
+[
+  {
+    "section": "300",
+    "title": "Murder",
+    "description": "Culpable homicide is murder if the act by which the death is caused is done with the intention of causing death",
+    "penalty": "Death or life imprisonment",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "302",
+    "title": "Punishment for murder",
+    "description": "Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine",
+    "penalty": "Death or life imprisonment and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "304",
+    "title": "Punishment for culpable homicide not amounting to murder",
+    "description": "Whoever commits culpable homicide not amounting to murder shall be punished",
+    "penalty": "Imprisonment up to 10 years or life with fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "304A",
+    "title": "Causing death by negligence",
+    "description": "Whoever causes death of any person by doing any rash or negligent act not amounting to culpable homicide",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "304B",
+    "title": "Dowry death",
+    "description": "Where the death of a woman is caused by burns or bodily injury or occurs within seven years of marriage under abnormal circumstances",
+    "penalty": "Imprisonment minimum 7 years, may extend to life",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "307",
+    "title": "Attempt to murder",
+    "description": "Whoever does any act with such intention or knowledge and under such circumstances that if he by that act caused death",
+    "penalty": "Imprisonment up to 10 years and fine, if hurt caused may extend to life",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "319",
+    "title": "Hurt",
+    "description": "Whoever causes bodily pain, disease or infirmity to any person is said to cause hurt",
+    "penalty": "Imprisonment up to 1 year or fine up to 1000 or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "320",
+    "title": "Grievous hurt",
+    "description": "Eight kinds of hurt designated as grievous - emasculation, permanent privation of sight, hearing, etc.",
+    "penalty": "Varies based on offense",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "323",
+    "title": "Punishment for voluntarily causing hurt",
+    "description": "Whoever voluntarily causes hurt shall be punished",
+    "penalty": "Imprisonment up to 1 year or fine up to 1000 or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "324",
+    "title": "Voluntarily causing hurt by dangerous weapons",
+    "description": "Whoever voluntarily causes hurt by means of any instrument for shooting, stabbing, cutting",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "325",
+    "title": "Punishment for voluntarily causing grievous hurt",
+    "description": "Whoever voluntarily causes grievous hurt shall be punished",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "326",
+    "title": "Voluntarily causing grievous hurt by dangerous weapons",
+    "description": "Whoever voluntarily causes grievous hurt by dangerous weapons or means",
+    "penalty": "Life imprisonment or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "326A",
+    "title": "Voluntarily causing grievous hurt by use of acid",
+    "description": "Whoever causes permanent or partial damage or deformity to any person by throwing acid",
+    "penalty": "Imprisonment minimum 10 years may extend to life and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "326B",
+    "title": "Voluntarily throwing or attempting to throw acid",
+    "description": "Whoever throws or attempts to throw acid on any person",
+    "penalty": "Imprisonment minimum 5 years may extend to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "354",
+    "title": "Assault or criminal force to woman with intent to outrage her modesty",
+    "description": "Whoever assaults or uses criminal force to any woman intending to outrage her modesty",
+    "penalty": "Imprisonment minimum 1 year may extend to 5 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "354A",
+    "title": "Sexual harassment",
+    "description": "Physical contact and advances, demand or request for sexual favors, showing pornography, making sexually colored remarks",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "354B",
+    "title": "Assault or use of criminal force to woman with intent to disrobe",
+    "description": "Whoever assaults or uses criminal force to any woman with intention to disrobe",
+    "penalty": "Imprisonment minimum 3 years may extend to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "354C",
+    "title": "Voyeurism",
+    "description": "Whoever watches or captures image of a woman in private act where she would have expectation of privacy",
+    "penalty": "Imprisonment minimum 1 year may extend to 3 years and fine, subsequent conviction 3-7 years and fine",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "354D",
+    "title": "Stalking",
+    "description": "Whoever follows or contacts a woman or monitors her use of internet despite clear indication of disinterest",
+    "penalty": "Imprisonment up to 3 years and fine, subsequent offense up to 5 years and fine",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "363",
+    "title": "Punishment for kidnapping",
+    "description": "Whoever kidnaps any person from India or from lawful guardianship",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Liberty",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "364",
+    "title": "Kidnapping or abducting to murder",
+    "description": "Whoever kidnaps or abducts any person in order that such person may be murdered",
+    "penalty": "Death or life imprisonment and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Liberty",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "365",
+    "title": "Kidnapping or abducting with intent to secretly confine",
+    "description": "Whoever kidnaps or abducts any person with intent to cause secret or wrongful confinement",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Liberty",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "366",
+    "title": "Kidnapping, abducting or inducing woman to compel marriage",
+    "description": "Whoever kidnaps or abducts any woman with intent that she may be compelled to marry",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "366A",
+    "title": "Procuration of minor girl",
+    "description": "Whoever induces any minor girl under eighteen years to go from any place or to do any act",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "367",
+    "title": "Kidnapping or abducting to subject person to slavery",
+    "description": "Whoever kidnaps or abducts any person in order that such person may be subjected to slavery",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Liberty",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "368",
+    "title": "Wrongfully concealing or keeping in confinement kidnapped person",
+    "description": "Whoever wrongfully conceals or keeps in confinement any kidnapped or abducted person",
+    "penalty": "Punishment as for kidnapping or abduction",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Liberty",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "375",
+    "title": "Rape",
+    "description": "A man is said to commit rape if he has sexual intercourse with a woman under circumstances falling under various descriptions",
+    "penalty": "Rigorous imprisonment minimum 10 years may extend to life and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376",
+    "title": "Punishment for rape",
+    "description": "Whoever commits rape shall be punished with rigorous imprisonment",
+    "penalty": "Minimum 10 years may extend to life imprisonment and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376A",
+    "title": "Punishment for causing death or resulting in persistent vegetative state of victim",
+    "description": "Whoever committing rape causes death or persistent vegetative state",
+    "penalty": "Rigorous imprisonment minimum 20 years may extend to life or death",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376AB",
+    "title": "Punishment for rape on woman under twelve years",
+    "description": "Whoever commits rape on a woman under twelve years of age",
+    "penalty": "Rigorous imprisonment minimum 20 years may extend to life or death and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376B",
+    "title": "Sexual intercourse by husband upon his wife during separation",
+    "description": "Whoever has sexual intercourse with his wife who is living separately under decree of separation",
+    "penalty": "Imprisonment up to 2 years and fine",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376C",
+    "title": "Sexual intercourse by person in authority",
+    "description": "Whoever being in position of authority takes advantage and has sexual intercourse not amounting to rape",
+    "penalty": "Rigorous imprisonment minimum 5 years may extend to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "376D",
+    "title": "Gang rape",
+    "description": "Where a woman is raped by one or more persons constituting a group",
+    "penalty": "Rigorous imprisonment minimum 20 years may extend to life and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "377",
+    "title": "Unnatural offences",
+    "description": "Whoever voluntarily has carnal intercourse against the order of nature",
+    "penalty": "Imprisonment for life or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Human Body",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "378",
+    "title": "Theft",
+    "description": "Whoever intending to take dishonestly any movable property out of possession without consent",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "379",
+    "title": "Punishment for theft",
+    "description": "Whoever commits theft shall be punished",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "380",
+    "title": "Theft in dwelling house",
+    "description": "Whoever commits theft in any building, tent or vessel used as a human dwelling",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "381",
+    "title": "Theft by clerk or servant of property in possession of master",
+    "description": "Whoever being clerk or servant commits theft in respect of any property in possession of master",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "382",
+    "title": "Theft after preparation for causing death, hurt or restraint",
+    "description": "Whoever commits theft having made preparation for causing death, hurt or wrongful restraint",
+    "penalty": "Rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "383",
+    "title": "Extortion",
+    "description": "Whoever intentionally puts any person in fear of injury and dishonestly induces the person to deliver any property",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "384",
+    "title": "Punishment for extortion",
+    "description": "Whoever commits extortion shall be punished",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "385",
+    "title": "Putting person in fear of injury to commit extortion",
+    "description": "Whoever puts or attempts to put any person in fear of injury to commit extortion",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "386",
+    "title": "Extortion by putting a person in fear of death or grievous hurt",
+    "description": "Whoever commits extortion by putting any person in fear of death or grievous hurt",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "387",
+    "title": "Putting person in fear of death or grievous hurt to commit extortion",
+    "description": "Whoever puts or attempts to put any person in fear of death or grievous hurt to commit extortion",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "392",
+    "title": "Punishment for robbery",
+    "description": "Whoever commits robbery shall be punished with rigorous imprisonment",
+    "penalty": "Rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "393",
+    "title": "Attempt to commit robbery",
+    "description": "Whoever attempts to commit robbery shall be punished",
+    "penalty": "Rigorous imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "395",
+    "title": "Punishment for dacoity",
+    "description": "Whoever commits dacoity shall be punished with imprisonment for life or rigorous imprisonment",
+    "penalty": "Life imprisonment or rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "396",
+    "title": "Dacoity with murder",
+    "description": "If any one of five or more persons who are conjointly committing dacoity commits murder",
+    "penalty": "Death or life imprisonment or rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "397",
+    "title": "Robbery or dacoity with attempt to cause death or grievous hurt",
+    "description": "If at the time of robbery or dacoity the offender uses any deadly weapon",
+    "penalty": "Rigorous imprisonment minimum 7 years",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "399",
+    "title": "Making preparation to commit dacoity",
+    "description": "Whoever makes any preparation for committing dacoity shall be punished",
+    "penalty": "Rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "402",
+    "title": "Assembling for purpose of committing dacoity",
+    "description": "Whoever is one of five or more persons assembled for the purpose of committing dacoity",
+    "penalty": "Rigorous imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "405",
+    "title": "Criminal breach of trust",
+    "description": "Whoever being in any manner entrusted with property dishonestly misappropriates or converts to own use",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "406",
+    "title": "Punishment for criminal breach of trust",
+    "description": "Whoever commits criminal breach of trust shall be punished",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "407",
+    "title": "Criminal breach of trust by carrier",
+    "description": "Whoever being a carrier, wharfinger or warehouse-keeper commits criminal breach of trust",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "408",
+    "title": "Criminal breach of trust by clerk or servant",
+    "description": "Whoever being a clerk or servant commits criminal breach of trust",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "409",
+    "title": "Criminal breach of trust by public servant, banker, merchant, agent",
+    "description": "Whoever being public servant, banker, merchant or agent commits criminal breach of trust",
+    "penalty": "Life imprisonment or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "415",
+    "title": "Cheating",
+    "description": "Whoever by deceiving any person fraudulently or dishonestly induces the person to deliver any property",
+    "penalty": "Imprisonment up to 1 year or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "416",
+    "title": "Cheating by personation",
+    "description": "A person is said to cheat by personation if he cheats by pretending to be some other person",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "417",
+    "title": "Punishment for cheating",
+    "description": "Whoever cheats shall be punished",
+    "penalty": "Imprisonment up to 1 year or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "418",
+    "title": "Cheating with knowledge that wrongful loss may ensue",
+    "description": "Whoever cheats with knowledge that wrongful loss may be thereby caused",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "419",
+    "title": "Punishment for cheating by personation",
+    "description": "Whoever cheats by personation shall be punished",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "420",
+    "title": "Cheating and dishonestly inducing delivery of property",
+    "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "425",
+    "title": "Mischief",
+    "description": "Whoever with intent to cause wrongful loss or damage destroys any property or diminishes its value",
+    "penalty": "Imprisonment up to 3 months or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "426",
+    "title": "Punishment for mischief",
+    "description": "Whoever commits mischief shall be punished",
+    "penalty": "Imprisonment up to 3 months or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "427",
+    "title": "Mischief causing damage to amount of fifty rupees",
+    "description": "Whoever commits mischief and causes loss or damage to the amount of fifty rupees or upwards",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "428",
+    "title": "Mischief by killing or maiming animal of value of ten rupees",
+    "description": "Whoever commits mischief by killing, poisoning, maiming or rendering useless any animal",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "429",
+    "title": "Mischief by killing or maiming cattle",
+    "description": "Whoever commits mischief by killing, poisoning, maiming or rendering useless any elephant, camel, horse",
+    "penalty": "Imprisonment up to 5 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "435",
+    "title": "Mischief by fire or explosive substance with intent to cause damage",
+    "description": "Whoever commits mischief by fire or any explosive substance",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "436",
+    "title": "Mischief by fire or explosive substance with intent to destroy house",
+    "description": "Whoever commits mischief by fire or explosive substance to any building used as a place for worship or human dwelling",
+    "penalty": "Life imprisonment or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "441",
+    "title": "Criminal trespass",
+    "description": "Whoever enters into property in possession of another with intent to commit an offence",
+    "penalty": "Imprisonment up to 3 months or fine up to 500 or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "442",
+    "title": "House-trespass",
+    "description": "Whoever commits criminal trespass by entering into any building, tent or vessel used as a human dwelling",
+    "penalty": "Imprisonment up to 1 year or fine up to 1000 or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "447",
+    "title": "Punishment for criminal trespass",
+    "description": "Whoever commits criminal trespass shall be punished",
+    "penalty": "Imprisonment up to 3 months or fine up to 500 or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "448",
+    "title": "Punishment for house-trespass",
+    "description": "Whoever commits house-trespass shall be punished",
+    "penalty": "Imprisonment up to 1 year or fine up to 1000 or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "449",
+    "title": "House-trespass to commit offence punishable with death",
+    "description": "Whoever commits house-trespass in order to commit an offence punishable with death",
+    "penalty": "Life imprisonment or rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "450",
+    "title": "House-trespass to commit offence punishable with life imprisonment",
+    "description": "Whoever commits house-trespass to commit an offence punishable with life imprisonment",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "451",
+    "title": "House-trespass to commit offence punishable with imprisonment",
+    "description": "Whoever commits house-trespass in order to commit an offence punishable with imprisonment",
+    "penalty": "Imprisonment up to 2 years and fine",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "452",
+    "title": "House-trespass after preparation for hurt, assault or wrongful restraint",
+    "description": "Whoever commits house-trespass having made preparation for causing hurt",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "453",
+    "title": "Punishment for lurking house-trespass",
+    "description": "Whoever commits lurking house-trespass or house-breaking shall be punished",
+    "penalty": "Imprisonment up to 2 years and fine",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "454",
+    "title": "Lurking house-trespass or house-breaking to commit offence punishable with imprisonment",
+    "description": "Whoever commits lurking house-trespass or house-breaking to commit an offence punishable with imprisonment",
+    "penalty": "Imprisonment up to 3 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "457",
+    "title": "Lurking house-trespass or house-breaking by night to commit offence punishable with imprisonment",
+    "description": "Whoever commits lurking house-trespass by night or house-breaking by night to commit an offence",
+    "penalty": "Imprisonment up to 5 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "459",
+    "title": "Grievous hurt caused whilst committing lurking house trespass or house-breaking",
+    "description": "Whoever whilst committing lurking house-trespass or house-breaking causes grievous hurt",
+    "penalty": "Life imprisonment or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "460",
+    "title": "Death or grievous hurt caused by one of several persons jointly concerned in house-breaking",
+    "description": "If at the time of committing house-breaking any person concerned causes death or grievous hurt",
+    "penalty": "Life imprisonment or rigorous imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Property",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "463",
+    "title": "Forgery",
+    "description": "Whoever makes any false document with intent to cause damage or injury to any person",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "464",
+    "title": "Making a false document",
+    "description": "A person is said to make a false document when he dishonestly or fraudulently makes a document",
+    "penalty": "As per section 463",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "465",
+    "title": "Punishment for forgery",
+    "description": "Whoever commits forgery shall be punished",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "467",
+    "title": "Forgery of valuable security, will",
+    "description": "Whoever forges a document purporting to be a valuable security or will",
+    "penalty": "Life imprisonment or imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "468",
+    "title": "Forgery for purpose of cheating",
+    "description": "Whoever commits forgery intending that the document forged shall be used for the purpose of cheating",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "469",
+    "title": "Forgery for purpose of harming reputation",
+    "description": "Whoever commits forgery intending that the forged document shall harm the reputation of any party",
+    "penalty": "Imprisonment up to 3 years and fine",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "470",
+    "title": "Forged document",
+    "description": "A false document made wholly or in part by forgery is designated a forged document",
+    "penalty": "N/A",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "471",
+    "title": "Using as genuine a forged document",
+    "description": "Whoever fraudulently or dishonestly uses as genuine any document which he knows to be forged",
+    "penalty": "Same as if he had forged such document",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "474",
+    "title": "Having possession of document described as valuable security knowing it to be forged",
+    "description": "Whoever has in his possession any forged document knowing it to be forged",
+    "penalty": "Imprisonment up to 7 years and fine if valuable security",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "475",
+    "title": "Counterfeiting device or mark used for authenticating documents",
+    "description": "Whoever counterfeits any device or mark used for authenticating any document",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "477A",
+    "title": "Falsification of accounts",
+    "description": "Whoever being clerk, officer or servant willfully and with intent to defraud destroys, alters or falsifies any book",
+    "penalty": "Imprisonment up to 7 years or fine or both",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Documents",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "493",
+    "title": "Cohabitation caused by man deceitfully inducing belief of lawful marriage",
+    "description": "Every man who by deceit causes any woman to believe she is lawfully married to him",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "494",
+    "title": "Marrying again during lifetime of husband or wife",
+    "description": "Whoever having a husband or wife living marries again in any case",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "495",
+    "title": "Same offence with concealment of former marriage",
+    "description": "Whoever commits bigamy having concealed the former marriage from the person married",
+    "penalty": "Imprisonment up to 10 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "496",
+    "title": "Marriage ceremony fraudulently gone through without lawful marriage",
+    "description": "Whoever dishonestly or with fraudulent intention goes through ceremony of marriage knowing it is not lawful",
+    "penalty": "Imprisonment up to 7 years and fine",
+    "bailable": false,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "497",
+    "title": "Adultery",
+    "description": "Whoever has sexual intercourse with a person who is and whom he knows to be the wife of another man",
+    "penalty": "Struck down by Supreme Court in 2018",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "498",
+    "title": "Enticing or taking away or detaining with criminal intent a married woman",
+    "description": "Whoever takes or entices away any woman who is and whom he knows to be the wife of any other man",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Relating to Marriage",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "498A",
+    "title": "Husband or relative of husband subjecting woman to cruelty",
+    "description": "Whoever being husband or relative of husband subjects woman to cruelty",
+    "penalty": "Imprisonment up to 3 years and fine",
+    "bailable": false,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "499",
+    "title": "Defamation",
+    "description": "Whoever by words spoken or intended to be read makes any imputation concerning any person",
+    "penalty": "Simple imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Reputation",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "500",
+    "title": "Punishment for defamation",
+    "description": "Whoever defames another shall be punished",
+    "penalty": "Simple imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Reputation",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "501",
+    "title": "Printing or engraving matter known to be defamatory",
+    "description": "Whoever prints or engraves any matter knowing it to be defamatory",
+    "penalty": "Simple imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Reputation",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "502",
+    "title": "Sale of printed or engraved substance containing defamatory matter",
+    "description": "Whoever sells or offers for sale any printed or engraved substance containing defamatory matter",
+    "penalty": "Simple imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Reputation",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "503",
+    "title": "Criminal intimidation",
+    "description": "Whoever threatens another with injury to his person, reputation or property with intent to cause alarm",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Public Tranquility",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "504",
+    "title": "Intentional insult with intent to provoke breach of peace",
+    "description": "Whoever intentionally insults and thereby gives provocation intending to cause breach of peace",
+    "penalty": "Imprisonment up to 2 years or fine or both",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Public Tranquility",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "505",
+    "title": "Statements conducing to public mischief",
+    "description": "Whoever makes statement or report with intent to cause mutiny, fear or alarm to public",
+    "penalty": "Imprisonment up to 3 years or fine or both",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Public Tranquility",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "506",
+    "title": "Punishment for criminal intimidation",
+    "description": "Whoever commits criminal intimidation shall be punished",
+    "penalty": "Imprisonment up to 2 years or fine or both, if threat is to cause death or grievous hurt up to 7 years",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Public Tranquility",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "507",
+    "title": "Criminal intimidation by anonymous communication",
+    "description": "Whoever commits criminal intimidation by an anonymous communication",
+    "penalty": "Imprisonment up to 2 years in addition to punishment under section 506",
+    "bailable": true,
+    "cognizable": false,
+    "category": "Offences Against Public Tranquility",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "509",
+    "title": "Word, gesture or act intended to insult modesty of a woman",
+    "description": "Whoever intending to insult the modesty of any woman utters any word or makes gesture",
+    "penalty": "Simple imprisonment up to 3 years and fine",
+    "bailable": true,
+    "cognizable": true,
+    "category": "Offences Against Women",
+    "act": "Indian Penal Code, 1860"
+  },
+  {
+    "section": "511",
+    "title": "Punishment for attempting to commit offences",
+    "description": "Whoever attempts to commit an offence punishable by this Code with imprisonment",
+    "penalty": "Imprisonment up to one-half of longest term provided for that offence",
+    "bailable": "Depends on offence",
+    "cognizable": "Depends on offence",
+    "category": "General",
+    "act": "Indian Penal Code, 1860"
+  }
+]

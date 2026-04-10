@@ -7,7 +7,7 @@ import CaseInputForm from '@/components/CaseInputForm';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Scale, Users, FileText, Calendar, TrendingUp, Clock, ArrowLeft } from 'lucide-react';
+import { Users, FileText, Calendar, TrendingUp, Clock, ArrowLeft } from 'lucide-react';
 
 const LawyerDashboard = () => {
   const { user, profile, loading } = useAuth();
@@ -57,8 +57,8 @@ const LawyerDashboard = () => {
         <Navigation />
         <main>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <Button 
-              variant="ghost" 
+            <Button
+              variant="ghost"
               onClick={() => setShowCaseForm(false)}
               className="mb-4"
             >
@@ -76,7 +76,6 @@ const LawyerDashboard = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Welcome Header */}
         <div className="mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
             Welcome back, {profile?.full_name || 'Lawyer'}
@@ -84,7 +83,6 @@ const LawyerDashboard = () => {
           <p className="text-muted-foreground">Here's an overview of your practice</p>
         </div>
 
-        {/* Stats Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {stats.map((stat) => (
             <Card key={stat.label} className="shadow-card-soft hover:shadow-legal transition-all">
@@ -94,7 +92,7 @@ const LawyerDashboard = () => {
                     <p className="text-sm text-muted-foreground mb-1">{stat.label}</p>
                     <p className="text-3xl font-bold text-foreground">{stat.value}</p>
                   </div>
-                  <div className={`p-3 rounded-lg bg-legal-blue-light/30`}>
+                  <div className="p-3 rounded-lg bg-legal-blue-light/30">
                     <stat.icon className={`h-6 w-6 ${stat.color}`} />
                   </div>
                 </div>
@@ -103,12 +101,11 @@ const LawyerDashboard = () => {
           ))}
         </div>
 
-        {/* Bookings Panel */}
         <div className="mb-8">
           <BookingsPanel userRole={profile?.role || 'lawyer'} />
         </div>
+
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Recent Cases */}
           <div className="lg:col-span-2">
             <Card className="shadow-card-soft">
               <CardHeader>
@@ -120,20 +117,20 @@ const LawyerDashboard = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {recentCases.map((case_item) => (
-                    <div key={case_item.id} className="p-4 border border-border rounded-lg hover:border-legal-blue/50 transition-colors">
+                  {recentCases.map((caseItem) => (
+                    <div key={caseItem.id} className="p-4 border border-border rounded-lg hover:border-legal-blue/50 transition-colors">
                       <div className="flex items-start justify-between mb-2">
                         <div>
-                          <h3 className="font-semibold text-foreground">{case_item.title}</h3>
-                          <p className="text-sm text-muted-foreground">{case_item.category}</p>
+                          <h3 className="font-semibold text-foreground">{caseItem.title}</h3>
+                          <p className="text-sm text-muted-foreground">{caseItem.category}</p>
                         </div>
-                        <Badge variant={case_item.priority === 'High' ? 'destructive' : 'outline'}>
-                          {case_item.priority}
+                        <Badge variant={caseItem.priority === 'High' ? 'destructive' : 'outline'}>
+                          {caseItem.priority}
                         </Badge>
                       </div>
                       <div className="flex items-center justify-between mt-3">
                         <Badge variant="outline" className="border-legal-blue/30 text-legal-blue">
-                          {case_item.status}
+                          {caseItem.status}
                         </Badge>
                         <Button variant="ghost" size="sm">View Details</Button>
                       </div>
@@ -145,7 +142,6 @@ const LawyerDashboard = () => {
             </Card>
           </div>
 
-          {/* Upcoming Consultations */}
           <div>
             <Card className="shadow-card-soft bg-legal-blue-light/20">
               <CardHeader>
@@ -171,7 +167,6 @@ const LawyerDashboard = () => {
               </CardContent>
             </Card>
 
-            {/* Quick Actions */}
             <Card className="shadow-card-soft mt-6">
               <CardHeader>
                 <CardTitle className="text-lg">Quick Actions</CardTitle>
@@ -181,9 +176,9 @@ const LawyerDashboard = () => {
                   <Calendar className="h-4 w-4 mr-2" />
                   Schedule Consultation
                 </Button>
-                <Button 
-                  variant="outline" 
-                  size="sm" 
+                <Button
+                  variant="outline"
+                  size="sm"
                   className="w-full"
                   onClick={() => setShowCaseForm(true)}
                 >

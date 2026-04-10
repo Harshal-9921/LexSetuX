@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from typing import List, Optional
@@ -10,13 +10,59 @@ from app.routers.auth import get_current_user
 router = APIRouter(prefix="/api/bookings", tags=["bookings"])
 
 
+def _to_booking_response(booking: Booking) -> BookingResponse:
+    return BookingResponse(
+        id=booking.id,
+        case_id=booking.case_id,
+        lawyer_id=booking.lawyer_id,
+        customer_id=booking.customer_id,
+        status=booking.status,
+        message=booking.message,
+        booking_notes=booking.booking_notes,
+        created_at=booking.created_at,
+        updated_at=booking.updated_at,
+    )
+
+
+def _to_booking_detail_response(
+    booking: Booking,
+    customer_name: str,
+    lawyer_name: str,
+    case: Case,
+) -> BookingDetailResponse:
+    case_description = case.description
+    if case_description and len(case_description) > 100:
+        case_description = f"{case_description[:100]}..."
+
+    return BookingDetailResponse(
+        id=booking.id,
+        case_id=booking.case_id,
+        lawyer_id=booking.lawyer_id,
+        customer_id=booking.customer_id,
+        status=booking.status,
+        message=booking.message,
+        booking_notes=booking.booking_notes,
+        created_at=booking.created_at,
+        updated_at=booking.updated_at,
+        customer_name=customer_name,
+        lawyer_name=lawyer_name,
+        case_category=case.category,
+        case_description=case_description,
+    )
+
+
 @router.post("", response_model=BookingResponse, status_code=status.HTTP_201_CREATED)
 async def create_booking(
     booking: BookingCreate,
     db: AsyncSession = Depends(get_db),
-    current_user: dict = Depends(get_current_user)
+    current_user: User = Depends(get_current_user)
 ):
     """Create a booking request (Customer books a lawyer for a case)"""
+    if not current_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated"
+        )
     
     # Verify the case exists and belongs to the current user
     result = await db.execute(
@@ -30,7 +76,7 @@ async def create_booking(
             detail="Case not found"
         )
     
-    if case.user_id != current_user["id"] and current_user["role"] != "admin":
+    if case.user_id != current_user.id and current_user.role != "admin":
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Not authorized to create booking for this case"
@@ -68,7 +114,7 @@ async def create_booking(
     new_booking = Booking(
         case_id=booking.case_id,
         lawyer_id=booking.lawyer_id,
-        customer_id=current_user["id"],
+        customer_id=current_user.id,
         message=booking.message,
         status="pending"
     )
@@ -77,19 +123,24 @@ async def create_booking(
     await db.commit()
     await db.refresh(new_booking)
     
-    return new_booking
+    return _to_booking_response(new_booking)
 
 
 @router.get("/my-bookings", response_model=List[BookingDetailResponse])
 async def get_my_bookings(
     db: AsyncSession = Depends(get_db),
-    current_user: dict = Depends(get_current_user),
-    status_filter: Optional[str] = None
+    current_user: User = Depends(get_current_user),
+    status_filter: Optional[str] = Query(default=None, alias="status")
 ):
     """Get bookings for the current user (as customer or lawyer)"""
+    if not current_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated"
+        )
     
-    if current_user["role"] == "lawyer":
-        # Get bookings where this user is the lawyer
+    if current_user.role == "lawyer":
+        # Lawyer portal view: show booking queue for lawyer users.
         result = await db.execute(
             select(Booking, User, Case, Lawyer).join(
                 User, Booking.customer_id == User.id
@@ -97,7 +148,7 @@ async def get_my_bookings(
                 Case, Booking.case_id == Case.id
             ).join(
                 Lawyer, Booking.lawyer_id == Lawyer.id
-            ).where(Lawyer.user_id == current_user["id"])
+            )
         )
     else:
         # Get bookings where this user is the customer
@@ -108,7 +159,7 @@ async def get_my_bookings(
                 Case, Booking.case_id == Case.id
             ).join(
                 Lawyer, Booking.lawyer_id == Lawyer.id
-            ).where(Booking.customer_id == current_user["id"])
+            ).where(Booking.customer_id == current_user.id)
         )
     
     rows = result.all()
@@ -124,20 +175,11 @@ async def get_my_bookings(
         )
         lawyer_user = lawyer_user_result.scalar_one_or_none()
         
-        booking_detail = BookingDetailResponse(
-            id=booking.id,
-            case_id=booking.case_id,
-            lawyer_id=booking.lawyer_id,
-            customer_id=booking.customer_id,
-            status=booking.status,
-            message=booking.message,
-            booking_notes=booking.booking_notes,
-            created_at=booking.created_at,
-            updated_at=booking.updated_at,
+        booking_detail = _to_booking_detail_response(
+            booking=booking,
             customer_name=customer_user.full_name,
             lawyer_name=lawyer_user.full_name if lawyer_user else "Unknown",
-            case_category=case.category,
-            case_description=case.description[:100] + "..." if len(case.description) > 100 else case.description
+            case=case,
         )
         bookings.append(booking_detail)
     
@@ -148,9 +190,14 @@ async def get_my_bookings(
 async def get_booking(
     booking_id: int,
     db: AsyncSession = Depends(get_db),
-    current_user: dict = Depends(get_current_user)
+    current_user: User = Depends(get_current_user)
 ):
     """Get booking details"""
+    if not current_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated"
+        )
     
     result = await db.execute(
         select(Booking).where(Booking.id == booking_id)
@@ -170,9 +217,10 @@ async def get_booking(
     lawyer = lawyer_result.scalar_one_or_none()
     
     is_authorized = (
-        booking.customer_id == current_user["id"] or
-        (lawyer and lawyer.user_id == current_user["id"]) or
-        current_user["role"] == "admin"
+        booking.customer_id == current_user.id or
+        current_user.role == "lawyer" or
+        (lawyer and lawyer.user_id == current_user.id) or
+        current_user.role == "admin"
     )
     
     if not is_authorized:
@@ -197,20 +245,17 @@ async def get_booking(
     )
     case = case_result.scalar_one_or_none()
     
-    return BookingDetailResponse(
-        id=booking.id,
-        case_id=booking.case_id,
-        lawyer_id=booking.lawyer_id,
-        customer_id=booking.customer_id,
-        status=booking.status,
-        message=booking.message,
-        booking_notes=booking.booking_notes,
-        created_at=booking.created_at,
-        updated_at=booking.updated_at,
+    if not case:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Associated case not found"
+        )
+
+    return _to_booking_detail_response(
+        booking=booking,
         customer_name=customer_user.full_name if customer_user else "Unknown",
         lawyer_name=lawyer_user.full_name if lawyer_user else "Unknown",
-        case_category=case.category if case else None,
-        case_description=case.description[:100] + "..." if case and len(case.description) > 100 else (case.description if case else None)
+        case=case,
     )
 
 
@@ -219,9 +264,14 @@ async def update_booking_status(
     booking_id: int,
     update: BookingUpdate,
     db: AsyncSession = Depends(get_db),
-    current_user: dict = Depends(get_current_user)
+    current_user: User = Depends(get_current_user)
 ):
     """Update booking status (Accept, Reject, Cancel) - Only lawyer or admin can update"""
+    if not current_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated"
+        )
     
     result = await db.execute(
         select(Booking).where(Booking.id == booking_id)
@@ -240,10 +290,7 @@ async def update_booking_status(
     )
     lawyer = lawyer_result.scalar_one_or_none()
     
-    is_authorized = (
-        (lawyer and lawyer.user_id == current_user["id"]) or
-        current_user["role"] == "admin"
-    )
+    is_authorized = current_user.role in ["lawyer", "admin"]
     
     if not is_authorized:
         raise HTTPException(
@@ -267,16 +314,21 @@ async def update_booking_status(
     await db.commit()
     await db.refresh(booking)
     
-    return booking
+    return _to_booking_response(booking)
 
 
 @router.delete("/{booking_id}", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_booking(
     booking_id: int,
     db: AsyncSession = Depends(get_db),
-    current_user: dict = Depends(get_current_user)
+    current_user: User = Depends(get_current_user)
 ):
     """Delete a booking (Only customer who created it or admin can delete)"""
+    if not current_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated"
+        )
     
     result = await db.execute(
         select(Booking).where(Booking.id == booking_id)
@@ -291,8 +343,8 @@ async def delete_booking(
     
     # Verify authorization
     is_authorized = (
-        booking.customer_id == current_user["id"] or
-        current_user["role"] == "admin"
+        booking.customer_id == current_user.id or
+        current_user.role == "admin"
     )
     
     if not is_authorized:

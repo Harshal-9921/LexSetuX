@@ -1,0 +1,275 @@
+[
+  {
+    "article": "12",
+    "part": "III",
+    "title": "Definition of State",
+    "description": "Defines 'State' for purposes of fundamental rights - includes Government and Parliament of India, State Governments and Legislatures, local authorities, and other authorities",
+    "category": "Preliminary"
+  },
+  {
+    "article": "13",
+    "part": "III",
+    "title": "Laws inconsistent with fundamental rights",
+    "description": "Laws inconsistent with fundamental rights to be void. State shall not make any law which takes away or abridges fundamental rights",
+    "category": "Preliminary"
+  },
+  {
+    "article": "14",
+    "part": "III",
+    "title": "Equality before law",
+    "description": "The State shall not deny to any person equality before the law or equal protection of laws within territory of India",
+    "category": "Right to Equality"
+  },
+  {
+    "article": "15",
+    "part": "III",
+    "title": "Prohibition of discrimination",
+    "description": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+    "category": "Right to Equality"
+  },
+  {
+    "article": "16",
+    "part": "III",
+    "title": "Equality of opportunity in public employment",
+    "description": "Equality of opportunity for all citizens in matters relating to employment or appointment to any office under the State",
+    "category": "Right to Equality"
+  },
+  {
+    "article": "17",
+    "part": "III",
+    "title": "Abolition of untouchability",
+    "description": "Untouchability is abolished and its practice in any form is forbidden. Enforcement of any disability arising out of untouchability is an offence",
+    "category": "Right to Equality"
+  },
+  {
+    "article": "18",
+    "part": "III",
+    "title": "Abolition of titles",
+    "description": "No title except military or academic shall be conferred by the State. Citizens of India cannot accept titles from any foreign State",
+    "category": "Right to Equality"
+  },
+  {
+    "article": "19",
+    "part": "III",
+    "title": "Protection of six freedoms",
+    "description": "Protection of freedom of speech and expression, assembly, association, movement, residence and profession",
+    "category": "Right to Freedom"
+  },
+  {
+    "article": "20",
+    "part": "III",
+    "title": "Protection in respect of conviction",
+    "description": "Protection against ex post facto laws, double jeopardy, and self-incrimination",
+    "category": "Right to Freedom"
+  },
+  {
+    "article": "21",
+    "part": "III",
+    "title": "Protection of life and personal liberty",
+    "description": "No person shall be deprived of his life or personal liberty except according to procedure established by law",
+    "category": "Right to Freedom"
+  },
+  {
+    "article": "21A",
+    "part": "III",
+    "title": "Right to education",
+    "description": "The State shall provide free and compulsory education to all children between age of six to fourteen years",
+    "category": "Right to Freedom"
+  },
+  {
+    "article": "22",
+    "part": "III",
+    "title": "Protection against arrest and detention",
+    "description": "Protection against arrest and detention in certain cases, right to be informed of grounds, right to consult legal practitioner",
+    "category": "Right to Freedom"
+  },
+  {
+    "article": "23",
+    "part": "III",
+    "title": "Prohibition of traffic in human beings and forced labour",
+    "description": "Traffic in human beings and begar and other similar forms of forced labour are prohibited",
+    "category": "Right against Exploitation"
+  },
+  {
+    "article": "24",
+    "part": "III",
+    "title": "Prohibition of child labour",
+    "description": "No child below age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment",
+    "category": "Right against Exploitation"
+  },
+  {
+    "article": "25",
+    "part": "III",
+    "title": "Freedom of conscience and religion",
+    "description": "All persons are equally entitled to freedom of conscience and right freely to profess, practice and propagate religion",
+    "category": "Right to Freedom of Religion"
+  },
+  {
+    "article": "26",
+    "part": "III",
+    "title": "Freedom to manage religious affairs",
+    "description": "Every religious denomination has the right to establish and maintain institutions, manage its own affairs, own and acquire property",
+    "category": "Right to Freedom of Religion"
+  },
+  {
+    "article": "27",
+    "part": "III",
+    "title": "Freedom from taxation for promotion of religion",
+    "description": "No person shall be compelled to pay any taxes for promotion or maintenance of any particular religion",
+    "category": "Right to Freedom of Religion"
+  },
+  {
+    "article": "28",
+    "part": "III",
+    "title": "Freedom from attending religious instruction",
+    "description": "No religious instruction shall be provided in any educational institution wholly maintained out of State funds",
+    "category": "Right to Freedom of Religion"
+  },
+  {
+    "article": "29",
+    "part": "III",
+    "title": "Protection of interests of minorities",
+    "description": "Any section of citizens with distinct language, script or culture have right to conserve the same",
+    "category": "Cultural and Educational Rights"
+  },
+  {
+    "article": "30",
+    "part": "III",
+    "title": "Right of minorities to establish educational institutions",
+    "description": "All minorities have right to establish and administer educational institutions of their choice",
+    "category": "Cultural and Educational Rights"
+  },
+  {
+    "article": "32",
+    "part": "III",
+    "title": "Right to Constitutional Remedies",
+    "description": "Right to move Supreme Court for enforcement of fundamental rights. Supreme Court can issue writs including habeas corpus, mandamus, prohibition, quo warranto and certiorari",
+    "category": "Right to Constitutional Remedies"
+  },
+  {
+    "article": "36",
+    "part": "IV",
+    "title": "Definition of State",
+    "description": "Definition of State for Part IV same as Article 12",
+    "category": "Preliminary"
+  },
+  {
+    "article": "37",
+    "part": "IV",
+    "title": "Application of Directive Principles",
+    "description": "Directive Principles are fundamental in governance but not enforceable by any court",
+    "category": "Preliminary"
+  },
+  {
+    "article": "38",
+    "part": "IV",
+    "title": "State to secure social order for welfare",
+    "description": "State shall secure a social order for promotion of welfare of people by minimizing inequalities",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "39",
+    "part": "IV",
+    "title": "Certain principles of policy",
+    "description": "State to direct policy towards securing adequate means of livelihood, equal pay for equal work, protection of children",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "39A",
+    "part": "IV",
+    "title": "Equal justice and free legal aid",
+    "description": "State shall secure operation of legal system promoting justice on basis of equal opportunity and provide free legal aid",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "40",
+    "part": "IV",
+    "title": "Organisation of village panchayats",
+    "description": "State shall organize village panchayats and endow them with powers and authority for self-government",
+    "category": "Political"
+  },
+  {
+    "article": "41",
+    "part": "IV",
+    "title": "Right to work, education and public assistance",
+    "description": "State shall make effective provision for securing right to work, education and public assistance in certain cases",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "42",
+    "part": "IV",
+    "title": "Just and humane conditions of work and maternity relief",
+    "description": "State shall make provisions for securing just and humane conditions of work and maternity relief",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "43",
+    "part": "IV",
+    "title": "Living wage for workers",
+    "description": "State shall endeavour to secure living wage and decent standard of life for all workers",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "44",
+    "part": "IV",
+    "title": "Uniform civil code",
+    "description": "State shall endeavour to secure uniform civil code for citizens throughout territory of India",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "45",
+    "part": "IV",
+    "title": "Provision for early childhood care and education",
+    "description": "State shall endeavour to provide early childhood care and education for all children until they complete age of six years",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "46",
+    "part": "IV",
+    "title": "Promotion of educational and economic interests of weaker sections",
+    "description": "State shall promote educational and economic interests of weaker sections, particularly SC and ST",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "47",
+    "part": "IV",
+    "title": "Duty to raise level of nutrition and standard of living",
+    "description": "State shall raise level of nutrition and standard of living and improve public health",
+    "category": "Social Welfare"
+  },
+  {
+    "article": "48",
+    "part": "IV",
+    "title": "Organisation of agriculture and animal husbandry",
+    "description": "State shall organize agriculture and animal husbandry on modern and scientific lines",
+    "category": "Economic"
+  },
+  {
+    "article": "48A",
+    "part": "IV",
+    "title": "Protection and improvement of environment",
+    "description": "State shall protect and improve environment and safeguard forests and wildlife",
+    "category": "Economic"
+  },
+  {
+    "article": "49",
+    "part": "IV",
+    "title": "Protection of monuments",
+    "description": "State shall protect every monument or place of artistic or historic interest",
+    "category": "Cultural"
+  },
+  {
+    "article": "50",
+    "part": "IV",
+    "title": "Separation of judiciary from executive",
+    "description": "State shall separate judiciary from executive in public services of the State",
+    "category": "Political"
+  },
+  {
+    "article": "51",
+    "part": "IV",
+    "title": "Promotion of international peace and security",
+    "description": "State shall promote international peace and security, maintain just relations between nations",
+    "category": "International Relations"
+  }
+]

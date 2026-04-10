@@ -7,6 +7,7 @@ from app.database import engine, Base, get_db
 from app.routers import auth, case_analysis, lawyers
 from app.routers import bookings
 from app.routers import contact
+from app.routers import precedents
 
 # Create database tables (in production, use Alembic migrations)
 async def init_db():
@@ -61,6 +62,7 @@ app.include_router(case_analysis.router, prefix="/api/cases", tags=["Case Analys
 app.include_router(lawyers.router, prefix="/api/lawyers", tags=["Lawyers"])
 app.include_router(bookings.router, tags=["Bookings"])
 app.include_router(contact.router, tags=["Contact"])
+app.include_router(precedents.router, tags=["Precedents"])
 
 
 

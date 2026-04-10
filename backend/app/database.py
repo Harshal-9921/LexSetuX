@@ -109,12 +109,26 @@ class Booking(Base):
     lawyer_id = Column(Integer, ForeignKey("lawyers.id"), nullable=False)
     customer_id = Column(Integer, ForeignKey("users.id"), nullable=False)  # Customer who made the booking
     status = Column(String(50), default="pending")  # pending, accepted, rejected, cancelled, completed
-    booking_date = Column(DateTime, default=datetime.utcnow)
-    scheduled_date = Column(DateTime, nullable=True)
-    lawyer_notes = Column(Text, nullable=True)  # Notes from lawyer
-    customer_notes = Column(Text, nullable=True)  # Notes from customer
+    message = Column(Text, nullable=True)  # Message from customer
+    booking_notes = Column(Text, nullable=True)  # Notes from lawyer
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class Precedent(Base):
+    __tablename__ = "precedents"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    case_name = Column(String(500), nullable=False, index=True)
+    year = Column(Integer, nullable=False, index=True)
+    parties = Column(String(500))  # Petitioner vs Respondent
+    court = Column(String(255), default="Supreme Court of India")
+    summary = Column(Text, nullable=False)  # Case summary/judgment text
+    pdf_file = Column(String(500))  # Reference to PDF file
+    keywords = Column(Text)  # JSON string of keywords
+    sections = Column(Text)  # JSON string of sections
+    citation = Column(String(255), unique=True)  # Case citation like "2021 SCC 100"
+    created_at = Column(DateTime, default=datetime.utcnow)
 
 
 # Dependency to get database session

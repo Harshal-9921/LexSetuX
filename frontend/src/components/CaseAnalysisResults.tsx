@@ -6,6 +6,7 @@ import { toast } from "sonner";
 import apiClient from "@/services/api";
 import { useAuth } from "@/hooks/useAuth";
 import { Info, Scale, Users, FileText, Target, Brain, AlertCircle, CheckCircle2 } from "lucide-react";
+import { PrecedentsPanel } from "./PrecedentsPanel";
 
 interface CaseAnalysisData {
   user_role: string;
@@ -488,6 +489,11 @@ const LawyerResults = ({ data }: { data: CaseAnalysisData }) => {
           </CardContent>
         </Card>
       )}
+
+      {/* Full Precedents Database Panel - Show ALL 26,285 cases */}
+      <div className="w-full mt-6">
+        <PrecedentsPanel searchQuery={data.case_category} />
+      </div>
 
       {/* Case Strength Assessment */}
       {data.case_strength !== undefined && (

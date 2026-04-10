@@ -1,5 +1,6 @@
 # Legal Data Scraping Guide
 
+<!-- python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8001 -->
 ## Overview
 
 This guide explains how to scrape legal data from websites and store it in your database/datasets.
@@ -74,6 +75,7 @@ Data is stored in `dataset/` folder:
 - `dataset/constitutional_rights.json`
 - `dataset/cases_database.json`
 - `dataset/lawyers_sample.json`
+
 
 ### Option 2: Store in Database
 

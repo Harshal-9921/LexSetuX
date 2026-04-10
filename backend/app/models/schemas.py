@@ -84,7 +84,7 @@ class LawyerBase(BaseModel):
 
 
 class LawyerCreate(LawyerBase):
-    user_id: int
+    user_id: Optional[int] = None
 
 
 class LawyerResponse(LawyerBase):
@@ -169,12 +169,12 @@ class CaseAnalysisResponse(BaseModel):
 class BookingCreate(BaseModel):
     case_id: int
     lawyer_id: int
+    message: Optional[str] = None
 
 
 class BookingUpdate(BaseModel):
     status: Optional[str] = None  # accepted, rejected, cancelled, etc.
-    scheduled_date: Optional[datetime] = None
-    lawyer_notes: Optional[str] = None
+    booking_notes: Optional[str] = None
 
 
 class BookingResponse(BaseModel):
@@ -183,10 +183,8 @@ class BookingResponse(BaseModel):
     lawyer_id: int
     customer_id: int
     status: str
-    booking_date: datetime
-    scheduled_date: Optional[datetime] = None
-    lawyer_notes: Optional[str] = None
-    customer_notes: Optional[str] = None
+    message: Optional[str] = None
+    booking_notes: Optional[str] = None
     created_at: datetime
     updated_at: datetime
     
@@ -195,10 +193,11 @@ class BookingResponse(BaseModel):
 
 
 class BookingDetailResponse(BookingResponse):
-    """Detailed booking response with related case and lawyer info"""
-    case: Optional[Dict[str, Any]] = None
-    lawyer: Optional[Dict[str, Any]] = None
-    customer: Optional[Dict[str, Any]] = None
+    """Detailed booking response for dashboard panels."""
+    customer_name: Optional[str] = None
+    lawyer_name: Optional[str] = None
+    case_category: Optional[str] = None
+    case_description: Optional[str] = None
     
     class Config:
         from_attributes = True

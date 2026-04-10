@@ -32,7 +32,7 @@ async def create_lawyer_profile(
     
     if existing_lawyer:
         # Update existing profile
-        for key, value in lawyer_data.model_dump(exclude_unset=True).items():
+        for key, value in lawyer_data.model_dump(exclude_unset=True, exclude={"user_id"}).items():
             setattr(existing_lawyer, key, value)
         await db.commit()
         await db.refresh(existing_lawyer)
@@ -41,7 +41,7 @@ async def create_lawyer_profile(
         # Create new profile
         new_lawyer = Lawyer(
             user_id=current_user.id,
-            **lawyer_data.model_dump()
+            **lawyer_data.model_dump(exclude={"user_id"})
         )
         db.add(new_lawyer)
         await db.commit()

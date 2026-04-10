@@ -1,0 +1,531 @@
+[
+  {
+    "title": "Kesavananda Bharati v. State of Kerala",
+    "citation": "AIR 1973 SC 1461",
+    "court": "Supreme Court of India",
+    "year": 1973,
+    "bench_size": 13,
+    "category": "Constitutional Law",
+    "subcategory": "Basic Structure Doctrine",
+    "outcome": "Landmark - Established Basic Structure Doctrine",
+    "summary": "Established that Parliament cannot amend the basic structure of the Constitution",
+    "key_points": [
+      "Basic structure of Constitution is inviolable",
+      "Parliament's amending power under Article 368 is limited",
+      "Fundamental rights are part of basic structure"
+    ],
+    "judges": [
+      "Justice S.M. Sikri (CJI)",
+      "Justice J.M. Shelat",
+      "Justice Others"
+    ],
+    "relevant_laws": [
+      "Article 368",
+      "Article 13",
+      "Article 32"
+    ],
+    "importance": 10
+  },
+  {
+    "title": "Maneka Gandhi v. Union of India",
+    "citation": "AIR 1978 SC 597",
+    "court": "Supreme Court of India",
+    "year": 1978,
+    "bench_size": 7,
+    "category": "Constitutional Law",
+    "subcategory": "Fundamental Rights",
+    "outcome": "Expanded interpretation of Article 21",
+    "summary": "Expanded the scope of Article 21 (Right to Life and Personal Liberty) to include right to travel abroad",
+    "key_points": [
+      "Article 21 includes right to travel abroad",
+      "Procedural fairness is essential component",
+      "Natural justice principles must be followed",
+      "Articles 14, 19, and 21 are interlinked"
+    ],
+    "judges": [
+      "Justice P.N. Bhagwati",
+      "Justice V.R. Krishna Iyer"
+    ],
+    "relevant_laws": [
+      "Article 21",
+      "Article 14",
+      "Article 19",
+      "Passport Act 1967"
+    ],
+    "importance": 10
+  },
+  {
+    "title": "Vishaka v. State of Rajasthan",
+    "citation": "AIR 1997 SC 3011",
+    "court": "Supreme Court of India",
+    "year": 1997,
+    "bench_size": 3,
+    "category": "Employment Law",
+    "subcategory": "Sexual Harassment",
+    "outcome": "Guidelines for sexual harassment at workplace",
+    "summary": "Laid down comprehensive guidelines for prevention of sexual harassment at workplace (Vishaka Guidelines)",
+    "key_points": [
+      "Sexual harassment violates fundamental rights under Articles 14, 19, and 21",
+      "Employers must provide safe work environment",
+      "Complaint committee must be established",
+      "Guidelines applicable until legislation enacted"
+    ],
+    "judges": [
+      "Justice J.S. Verma",
+      "Justice Sujata V. Manohar",
+      "Justice B.N. Kirpal"
+    ],
+    "relevant_laws": [
+      "Article 14",
+      "Article 19",
+      "Article 21",
+      "CEDAW Convention"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Shanti Star Builders v. Narayan Totame",
+    "citation": "AIR 1990 SC 630",
+    "court": "Supreme Court of India",
+    "year": 1990,
+    "bench_size": 2,
+    "category": "Property Law",
+    "subcategory": "Tenancy Rights",
+    "outcome": "Tenant rights protection",
+    "summary": "Upheld tenant rights against illegal eviction, emphasized need for proper notice and due process",
+    "key_points": [
+      "Proper notice required before eviction",
+      "Tenant rights must be protected",
+      "Due process must be followed",
+      "Landlord cannot use forceful eviction"
+    ],
+    "judges": [
+      "Justice K. Jagannatha Shetty",
+      "Justice M.H. Kania"
+    ],
+    "relevant_laws": [
+      "Transfer of Property Act 1882",
+      "Rent Control Acts"
+    ],
+    "importance": 7
+  },
+  {
+    "title": "Hindustan Petroleum Corporation v. Darius Shapur Chenai",
+    "citation": "AIR 2005 SC 3808",
+    "court": "Supreme Court of India",
+    "year": 2005,
+    "bench_size": 3,
+    "category": "Property Law",
+    "subcategory": "Adverse Possession",
+    "outcome": "Requirements for adverse possession clarified",
+    "summary": "Clarified the requirements for establishing adverse possession claim",
+    "key_points": [
+      "Possession must be continuous for 12 years",
+      "Possession must be hostile to true owner",
+      "Burden of proof on person claiming adverse possession",
+      "Animus possidendi required"
+    ],
+    "judges": [
+      "Justice R.C. Lahoti (CJI)",
+      "Justice G.P. Mathur",
+      "Justice P.K. Balasubramanyan"
+    ],
+    "relevant_laws": [
+      "Limitation Act 1963",
+      "Article 65"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "State of Maharashtra v. Madhukar Narayan Mardikar",
+    "citation": "AIR 1991 SC 207",
+    "court": "Supreme Court of India",
+    "year": 1991,
+    "bench_size": 2,
+    "category": "Criminal Law",
+    "subcategory": "Rape",
+    "outcome": "Character evidence inadmissible in rape cases",
+    "summary": "Held that past sexual history of victim is irrelevant in rape cases",
+    "key_points": [
+      "Character of victim irrelevant in rape trials",
+      "Past sexual conduct cannot be used to discredit victim",
+      "Focus should be on the alleged incident",
+      "Dignity of victim must be protected"
+    ],
+    "judges": [
+      "Justice K.N. Singh",
+      "Justice K. Ramaswamy"
+    ],
+    "relevant_laws": [
+      "IPC Section 375",
+      "IPC Section 376",
+      "Evidence Act Section 155(4)"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Suresh Kumar Koushal v. Naz Foundation",
+    "citation": "AIR 2014 SC 563",
+    "court": "Supreme Court of India",
+    "year": 2013,
+    "bench_size": 2,
+    "category": "Criminal Law",
+    "subcategory": "LGBTQ Rights",
+    "outcome": "Later overturned by Navtej Singh Johar",
+    "summary": "Upheld constitutionality of IPC Section 377 criminalizing homosexual acts (later overruled)",
+    "key_points": [
+      "Initially upheld Section 377",
+      "Held that sexual minorities are minuscule",
+      "Later overruled in 2018 by larger bench",
+      "Historical case in LGBTQ rights evolution"
+    ],
+    "judges": [
+      "Justice G.S. Singhvi",
+      "Justice S.J. Mukhopadhaya"
+    ],
+    "relevant_laws": [
+      "IPC Section 377",
+      "Article 14",
+      "Article 15",
+      "Article 21"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "Navtej Singh Johar v. Union of India",
+    "citation": "AIR 2018 SC 4321",
+    "court": "Supreme Court of India",
+    "year": 2018,
+    "bench_size": 5,
+    "category": "Criminal Law",
+    "subcategory": "LGBTQ Rights",
+    "outcome": "Section 377 partially struck down",
+    "summary": "Partially struck down Section 377 IPC decriminalizing consensual homosexual acts between adults",
+    "key_points": [
+      "Consensual sex between adults is not criminal",
+      "Sexual orientation is natural",
+      "Discrimination based on sexual orientation violates Articles 14, 15, 21",
+      "Right to dignity and privacy upheld"
+    ],
+    "judges": [
+      "Justice Dipak Misra (CJI)",
+      "Justice A.M. Khanwilkar",
+      "Justice D.Y. Chandrachud",
+      "Justice R.F. Nariman",
+      "Justice Indu Malhotra"
+    ],
+    "relevant_laws": [
+      "IPC Section 377",
+      "Article 14",
+      "Article 15",
+      "Article 19",
+      "Article 21"
+    ],
+    "importance": 10
+  },
+  {
+    "title": "Satyabrata Ghose v. Mugneeram Bangur & Co.",
+    "citation": "AIR 1954 SC 44",
+    "court": "Supreme Court of India",
+    "year": 1954,
+    "bench_size": 3,
+    "category": "Contract Law",
+    "subcategory": "Frustration of Contract",
+    "outcome": "Doctrine of frustration explained",
+    "summary": "Explained doctrine of frustration of contract under Section 56 of Indian Contract Act",
+    "key_points": [
+      "Supervening impossibility discharges contract",
+      "Performance must become unlawful or physically impossible",
+      "Commercial hardship not sufficient",
+      "Contract becomes void automatically"
+    ],
+    "judges": [
+      "Justice N.H. Bhagwati",
+      "Justice B. Jagannadhadas",
+      "Justice T.L.V. Aiyyar"
+    ],
+    "relevant_laws": [
+      "Contract Act Section 56",
+      "Contract Act Section 32"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "Central Inland Water Transport Corporation v. Brojo Nath Ganguly",
+    "citation": "AIR 1986 SC 1571",
+    "court": "Supreme Court of India",
+    "year": 1986,
+    "bench_size": 5,
+    "category": "Contract Law",
+    "subcategory": "Employment Contract",
+    "outcome": "Unreasonable termination clause struck down",
+    "summary": "Struck down unreasonable termination clause in employment contract, applied Article 14 to contractual obligations",
+    "key_points": [
+      "Fundamental rights apply to State instrumentalities",
+      "Arbitrary termination violates Article 14",
+      "Reasonableness is essential in contracts",
+      "Right to livelihood protected"
+    ],
+    "judges": [
+      "Justice A.N. Sen",
+      "Justice R.S. Pathak",
+      "Justice M.P. Thakkar",
+      "Justice Others"
+    ],
+    "relevant_laws": [
+      "Article 14",
+      "Contract Act",
+      "Industrial Disputes Act"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "Shah Bano Begum v. Mohammed Ahmed Khan",
+    "citation": "AIR 1985 SC 945",
+    "court": "Supreme Court of India",
+    "year": 1985,
+    "bench_size": 5,
+    "category": "Family Law",
+    "subcategory": "Maintenance",
+    "outcome": "Maintenance under CrPC 125 applicable to Muslim women",
+    "summary": "Held that Muslim women entitled to maintenance under Section 125 CrPC after divorce",
+    "key_points": [
+      "Section 125 CrPC applies to all religions",
+      "Right to maintenance transcends religious boundaries",
+      "Secular provisions override personal laws",
+      "Led to enactment of Muslim Women Act 1986"
+    ],
+    "judges": [
+      "Justice Y.V. Chandrachud (CJI)",
+      "Justice D.A. Desai",
+      "Justice Others"
+    ],
+    "relevant_laws": [
+      "CrPC Section 125",
+      "Muslim Personal Law"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Shayara Bano v. Union of India (Triple Talaq Case)",
+    "citation": "AIR 2017 SC 4609",
+    "court": "Supreme Court of India",
+    "year": 2017,
+    "bench_size": 5,
+    "category": "Family Law",
+    "subcategory": "Divorce",
+    "outcome": "Triple Talaq declared unconstitutional",
+    "summary": "Declared practice of triple talaq (talaq-e-biddat) unconstitutional and violative of Article 14",
+    "key_points": [
+      "Triple talaq violates Article 14",
+      "Arbitrary and discriminatory practice",
+      "Not essential religious practice",
+      "Led to Muslim Women Protection of Rights Act 2019"
+    ],
+    "judges": [
+      "Justice J.S. Khehar (CJI)",
+      "Justice Kurian Joseph",
+      "Justice R.F. Nariman",
+      "Justice U.U. Lalit",
+      "Justice S. Abdul Nazeer"
+    ],
+    "relevant_laws": [
+      "Article 14",
+      "Article 15",
+      "Article 21",
+      "Muslim Personal Law"
+    ],
+    "importance": 10
+  },
+  {
+    "title": "Indian Medical Association v. V.P. Shantha",
+    "citation": "AIR 1996 SC 550",
+    "court": "Supreme Court of India",
+    "year": 1995,
+    "bench_size": 3,
+    "category": "Consumer Law",
+    "subcategory": "Medical Negligence",
+    "outcome": "Medical services covered under Consumer Protection Act",
+    "summary": "Held that medical services constitute 'service' under Consumer Protection Act 1986",
+    "key_points": [
+      "Medical profession is a service",
+      "Patients are consumers under CPA 1986",
+      "Free medical services not covered",
+      "Establishes medical negligence liability"
+    ],
+    "judges": [
+      "Justice B.P. Jeevan Reddy",
+      "Justice S.C. Sen",
+      "Justice G.B. Pattanaik"
+    ],
+    "relevant_laws": [
+      "Consumer Protection Act 1986",
+      "IPC Section 304A"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Shreya Singhal v. Union of India",
+    "citation": "AIR 2015 SC 1523",
+    "court": "Supreme Court of India",
+    "year": 2015,
+    "bench_size": 2,
+    "category": "Cyber Law",
+    "subcategory": "Freedom of Speech",
+    "outcome": "Section 66A of IT Act struck down",
+    "summary": "Struck down Section 66A of IT Act 2000 as unconstitutional restriction on freedom of speech",
+    "key_points": [
+      "Section 66A violates Article 19(1)(a)",
+      "Vague and overbroad provisions struck down",
+      "Restrictions must be reasonable",
+      "Online speech has same protection as offline"
+    ],
+    "judges": [
+      "Justice J. Chelameswar",
+      "Justice R.F. Nariman"
+    ],
+    "relevant_laws": [
+      "IT Act Section 66A",
+      "Article 19(1)(a)",
+      "Article 19(2)"
+    ],
+    "importance": 10
+  },
+  {
+    "title": "M.C. Mehta v. Union of India (Oleum Gas Leak Case)",
+    "citation": "AIR 1987 SC 1086",
+    "court": "Supreme Court of India",
+    "year": 1987,
+    "bench_size": 3,
+    "category": "Environmental Law",
+    "subcategory": "Absolute Liability",
+    "outcome": "Absolute liability principle established",
+    "summary": "Established the principle of absolute liability for hazardous or inherently dangerous activities",
+    "key_points": [
+      "Absolute liability for hazardous industries",
+      "No exceptions allowed",
+      "Strict liability rule modified",
+      "Compensation commensurate with magnitude and capacity"
+    ],
+    "judges": [
+      "Justice P.N. Bhagwati",
+      "Justice M.P. Thakkar",
+      "Justice K.N. Singh"
+    ],
+    "relevant_laws": [
+      "Article 21",
+      "Article 32",
+      "Environment Protection Act 1986"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Indian Council for Enviro-Legal Action v. Union of India",
+    "citation": "AIR 1996 SC 1446",
+    "court": "Supreme Court of India",
+    "year": 1996,
+    "bench_size": 3,
+    "category": "Environmental Law",
+    "subcategory": "Pollution",
+    "outcome": "Polluter Pays Principle affirmed",
+    "summary": "Affirmed the 'Polluter Pays' principle and ordered remediation of polluted land",
+    "key_points": [
+      "Polluter must pay for remediation",
+      "Right to clean environment is fundamental right",
+      "Industries cannot escape liability",
+      "Precautionary principle applied"
+    ],
+    "judges": [
+      "Justice Kuldip Singh",
+      "Justice Faizan Uddin",
+      "Justice B.L. Hansaria"
+    ],
+    "relevant_laws": [
+      "Article 21",
+      "Environment Protection Act 1986",
+      "Water Act 1974"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "Air India v. Nergesh Meerza",
+    "citation": "AIR 1981 SC 1829",
+    "court": "Supreme Court of India",
+    "year": 1981,
+    "bench_size": 3,
+    "category": "Labor Law",
+    "subcategory": "Discrimination",
+    "outcome": "Gender discriminatory service conditions struck down",
+    "summary": "Struck down discriminatory service conditions for air hostesses based on marriage and pregnancy",
+    "key_points": [
+      "Gender discrimination violates Article 14",
+      "Marriage/pregnancy cannot be ground for termination",
+      "Equal treatment in employment required",
+      "Protective discrimination distinguished"
+    ],
+    "judges": [
+      "Justice A.D. Koshal",
+      "Justice A.C. Gupta",
+      "Justice Others"
+    ],
+    "relevant_laws": [
+      "Article 14",
+      "Article 15",
+      "Article 16"
+    ],
+    "importance": 8
+  },
+  {
+    "title": "Novartis AG v. Union of India",
+    "citation": "AIR 2013 SC 1311",
+    "court": "Supreme Court of India",
+    "year": 2013,
+    "bench_size": 2,
+    "category": "Intellectual Property",
+    "subcategory": "Patent Law",
+    "outcome": "Patent application rejected",
+    "summary": "Rejected Novartis patent application for Glivec, upheld Section 3(d) of Patents Act",
+    "key_points": [
+      "Evergreening of patents not allowed",
+      "Enhanced efficacy required for new form",
+      "Public health interest paramount",
+      "Section 3(d) constitutional"
+    ],
+    "judges": [
+      "Justice Aftab Alam",
+      "Justice R.M. Lodha"
+    ],
+    "relevant_laws": [
+      "Patents Act 1970 Section 3(d)",
+      "TRIPS Agreement"
+    ],
+    "importance": 9
+  },
+  {
+    "title": "Vodafone International Holdings v. Union of India",
+    "citation": "(2012) 6 SCC 613",
+    "court": "Supreme Court of India",
+    "year": 2012,
+    "bench_size": 3,
+    "category": "Tax Law",
+    "subcategory": "Capital Gains Tax",
+    "outcome": "Offshore transaction not taxable in India",
+    "summary": "Held that offshore share transfer between two foreign entities not taxable in India",
+    "key_points": [
+      "Look at substance, not form of transaction",
+      "Offshore transactions outside Indian tax jurisdiction",
+      "Principle of fiscal sovereignty",
+      "Led to retrospective amendment of Income Tax Act"
+    ],
+    "judges": [
+      "Justice S.H. Kapadia (CJI)",
+      "Justice K.S. Radhakrishnan",
+      "Justice Swatanter Kumar"
+    ],
+    "relevant_laws": [
+      "Income Tax Act 1961",
+      "Section 9"
+    ],
+    "importance": 9
+  }
+]

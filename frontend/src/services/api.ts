@@ -1,4 +1,22 @@
-﻿const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+﻿const resolveDefaultBaseUrl = () => {
+  if (typeof window === 'undefined') {
+    return 'http://127.0.0.1:8000';
+  }
+
+  const { protocol, hostname } = window.location;
+  const safeHost = hostname === 'localhost' ? '127.0.0.1' : hostname;
+  return `${protocol}//${safeHost}:8000`;
+};
+
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || resolveDefaultBaseUrl();
+
+export interface AuthUser {
+  id: number;
+  email: string;
+  full_name: string;
+  role: 'customer' | 'lawyer' | 'admin';
+  is_active: boolean;
+}
 
 export interface CaseAnalysisRequest {
   description: string;
@@ -142,6 +160,12 @@ class ApiClient {
     return response;
   }
 
+  async getCurrentUser(): Promise<AuthUser> {
+    return this.request<AuthUser>('/api/auth/me', {
+      method: 'GET',
+    });
+  }
+
   async register(
     email: string,
     password: string,
@@ -255,6 +279,46 @@ class ApiClient {
       method: 'POST',
       body: JSON.stringify(data),
     });
+  }
+
+  // Precedents
+  async searchPrecedents(query: string, limit: number = 100, yearFrom?: number, yearTo?: number): Promise<any[]> {
+    const params = new URLSearchParams({ q: query, limit: limit.toString() });
+    if (yearFrom) params.append('year_from', yearFrom.toString());
+    if (yearTo) params.append('year_to', yearTo.toString());
+    return this.request(`/api/precedents/search?${params}`, { method: 'GET' });
+  }
+
+  async getPrecedentsByYear(year: number, limit: number = 200): Promise<any[]> {
+    return this.request(`/api/precedents/by-year/${year}?limit=${limit}`, { method: 'GET' });
+  }
+
+  async getPrecedentsBySection(section: string, limit: number = 100): Promise<any[]> {
+    return this.request(`/api/precedents/by-section/${section}?limit=${limit}`, { method: 'GET' });
+  }
+
+  async listPrecedents(skip: number = 0, limit: number = 500): Promise<any[]> {
+    return this.request(`/api/precedents/list?skip=${skip}&limit=${limit}`, { method: 'GET' });
+  }
+
+  async getPrecedentCount(): Promise<{ total: number; status: string }> {
+    return this.request('/api/precedents/count', { method: 'GET' });
+  }
+
+  async getRandomPrecedents(limit: number = 20): Promise<any[]> {
+    return this.request(`/api/precedents/random?limit=${limit}`, { method: 'GET' });
+  }
+
+  async getPrecedentStats(): Promise<any> {
+    return this.request('/api/precedents/statistics', { method: 'GET' });
+  }
+
+  async getPrecedent(id: number): Promise<any> {
+    return this.request(`/api/precedents/${id}`, { method: 'GET' });
+  }
+
+  async getSimilarPrecedents(caseName: string, limit: number = 10): Promise<any[]> {
+    return this.request(`/api/precedents/similar?case_name=${encodeURIComponent(caseName)}&limit=${limit}`, { method: 'GET' });
   }
 }
 

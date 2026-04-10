@@ -159,7 +159,7 @@ const CaseInputForm = () => {
         errorMessage = error.message;
         // Check if it's a connection error
         if (error.message.includes('Failed to fetch') || error.message.includes('Cannot connect')) {
-          errorMessage = `Cannot connect to backend server. Please make sure the FastAPI server is running on http://localhost:8000. If it's running on a different port, set VITE_API_BASE_URL in your .env file.`;
+          errorMessage = `Cannot connect to backend server. Please make sure the FastAPI server is running and accessible. If it's running on a different host or port, set VITE_API_BASE_URL in your .env file.`;
         }
       }
       

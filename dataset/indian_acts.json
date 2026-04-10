@@ -1,0 +1,550 @@
+[
+  {
+    "name": "Indian Contract Act",
+    "year": 1872,
+    "category": "Contract Law",
+    "sections": 238,
+    "description": "Governs contracts in India, defines agreement, consideration, capacity, free consent, lawful object",
+    "key_sections": [
+      "Section 2",
+      "Section 10",
+      "Section 23",
+      "Section 56"
+    ]
+  },
+  {
+    "name": "Transfer of Property Act",
+    "year": 1882,
+    "category": "Property Law",
+    "sections": 137,
+    "description": "Governs transfer of property in India including sale, mortgage, lease, gift, exchange",
+    "key_sections": [
+      "Section 5",
+      "Section 54",
+      "Section 58",
+      "Section 105",
+      "Section 122"
+    ]
+  },
+  {
+    "name": "Indian Evidence Act",
+    "year": 1872,
+    "category": "Evidence Law",
+    "sections": 167,
+    "description": "Governs admissibility of evidence in Indian courts, burden of proof, examination of witnesses",
+    "key_sections": [
+      "Section 3",
+      "Section 65B",
+      "Section 101",
+      "Section 118"
+    ]
+  },
+  {
+    "name": "Code of Criminal Procedure",
+    "year": 1973,
+    "category": "Criminal Law",
+    "sections": 484,
+    "description": "Procedural law for administration of criminal justice, investigation, inquiry, trial, bail, arrest",
+    "key_sections": [
+      "Section 41",
+      "Section 125",
+      "Section 154",
+      "Section 161",
+      "Section 313",
+      "Section 437"
+    ]
+  },
+  {
+    "name": "Code of Civil Procedure",
+    "year": 1908,
+    "category": "Civil Law",
+    "sections": 158,
+    "description": "Procedural law for administration of civil justice, jurisdiction, suits, pleadings, execution",
+    "key_sections": [
+      "Order 1 Rule 8",
+      "Order 7 Rule 11",
+      "Section 9",
+      "Section 11",
+      "Order 39 Rule 1&2"
+    ]
+  },
+  {
+    "name": "Limitation Act",
+    "year": 1963,
+    "category": "General Law",
+    "sections": 32,
+    "description": "Prescribes time limits for filing suits, appeals, and applications in courts",
+    "key_sections": [
+      "Section 3",
+      "Section 5",
+      "Article 65",
+      "Article 113",
+      "Article 137"
+    ]
+  },
+  {
+    "name": "Consumer Protection Act",
+    "year": 2019,
+    "category": "Consumer Law",
+    "sections": 107,
+    "description": "Protects consumer rights, establishes consumer disputes redressal commissions",
+    "key_sections": [
+      "Section 2(7)",
+      "Section 2(42)",
+      "Section 35",
+      "Section 84"
+    ]
+  },
+  {
+    "name": "Information Technology Act",
+    "year": 2000,
+    "category": "Cyber Law",
+    "sections": 94,
+    "description": "Governs electronic commerce, electronic governance, cyber crimes, digital signatures",
+    "key_sections": [
+      "Section 43",
+      "Section 66",
+      "Section 67",
+      "Section 72",
+      "Section 79"
+    ]
+  },
+  {
+    "name": "Companies Act",
+    "year": 2013,
+    "category": "Corporate Law",
+    "sections": 470,
+    "description": "Governs incorporation, regulation, and winding up of companies in India",
+    "key_sections": [
+      "Section 2(20)",
+      "Section 7",
+      "Section 149",
+      "Section 166",
+      "Section 241"
+    ]
+  },
+  {
+    "name": "Arbitration and Conciliation Act",
+    "year": 1996,
+    "category": "ADR",
+    "sections": 86,
+    "description": "Governs domestic and international arbitration and conciliation in India",
+    "key_sections": [
+      "Section 7",
+      "Section 11",
+      "Section 34",
+      "Section 37"
+    ]
+  },
+  {
+    "name": "Right to Information Act",
+    "year": 2005,
+    "category": "Transparency",
+    "sections": 31,
+    "description": "Provides right to information from public authorities, promotes transparency and accountability",
+    "key_sections": [
+      "Section 2(f)",
+      "Section 2(j)",
+      "Section 6",
+      "Section 8",
+      "Section 18"
+    ]
+  },
+  {
+    "name": "Protection of Women from Domestic Violence Act",
+    "year": 2005,
+    "category": "Women Rights",
+    "sections": 37,
+    "description": "Protects women from domestic violence, provides relief and protection orders",
+    "key_sections": [
+      "Section 2",
+      "Section 3",
+      "Section 12",
+      "Section 18",
+      "Section 19"
+    ]
+  },
+  {
+    "name": "Sexual Harassment of Women at Workplace Act",
+    "year": 2013,
+    "category": "Women Rights",
+    "sections": 32,
+    "description": "Prevents and redresses sexual harassment of women at workplace",
+    "key_sections": [
+      "Section 2(n)",
+      "Section 3",
+      "Section 4",
+      "Section 9",
+      "Section 13"
+    ]
+  },
+  {
+    "name": "Negotiable Instruments Act",
+    "year": 1881,
+    "category": "Commercial Law",
+    "sections": 147,
+    "description": "Governs promissory notes, bills of exchange and cheques",
+    "key_sections": [
+      "Section 4",
+      "Section 13",
+      "Section 118",
+      "Section 138"
+    ]
+  },
+  {
+    "name": "Motor Vehicles Act",
+    "year": 1988,
+    "category": "Transport Law",
+    "sections": 217,
+    "description": "Governs road transport vehicles, licensing, insurance, offences and penalties",
+    "key_sections": [
+      "Section 140",
+      "Section 165",
+      "Section 166",
+      "Section 181"
+    ]
+  },
+  {
+    "name": "Environment Protection Act",
+    "year": 1986,
+    "category": "Environmental Law",
+    "sections": 26,
+    "description": "Provides for protection and improvement of environment",
+    "key_sections": [
+      "Section 3",
+      "Section 15",
+      "Section 19"
+    ]
+  },
+  {
+    "name": "Wildlife Protection Act",
+    "year": 1972,
+    "category": "Environmental Law",
+    "sections": 66,
+    "description": "Protects wild animals, birds and plants",
+    "key_sections": [
+      "Section 9",
+      "Section 39",
+      "Section 51"
+    ]
+  },
+  {
+    "name": "Forest Conservation Act",
+    "year": 1980,
+    "category": "Environmental Law",
+    "sections": 6,
+    "description": "Provides for conservation of forests and related matters",
+    "key_sections": [
+      "Section 2",
+      "Section 3A"
+    ]
+  },
+  {
+    "name": "Water (Prevention and Control of Pollution) Act",
+    "year": 1974,
+    "category": "Environmental Law",
+    "sections": 63,
+    "description": "Provides for prevention and control of water pollution",
+    "key_sections": [
+      "Section 2",
+      "Section 24",
+      "Section 41",
+      "Section 43"
+    ]
+  },
+  {
+    "name": "Air (Prevention and Control of Pollution) Act",
+    "year": 1981,
+    "category": "Environmental Law",
+    "sections": 54,
+    "description": "Provides for prevention, control and abatement of air pollution",
+    "key_sections": [
+      "Section 2",
+      "Section 21",
+      "Section 37"
+    ]
+  },
+  {
+    "name": "Indian Succession Act",
+    "year": 1925,
+    "category": "Succession Law",
+    "sections": 390,
+    "description": "Governs succession and estate of deceased persons",
+    "key_sections": [
+      "Section 57",
+      "Section 63",
+      "Section 213"
+    ]
+  },
+  {
+    "name": "Hindu Marriage Act",
+    "year": 1955,
+    "category": "Family Law",
+    "sections": 30,
+    "description": "Governs marriage among Hindus, conditions, ceremonies, divorce",
+    "key_sections": [
+      "Section 5",
+      "Section 7",
+      "Section 13",
+      "Section 24",
+      "Section 25"
+    ]
+  },
+  {
+    "name": "Hindu Succession Act",
+    "year": 1956,
+    "category": "Succession Law",
+    "sections": 30,
+    "description": "Governs intestate or unwilled succession among Hindus",
+    "key_sections": [
+      "Section 6",
+      "Section 8",
+      "Section 14",
+      "Section 15",
+      "Section 16"
+    ]
+  },
+  {
+    "name": "Special Marriage Act",
+    "year": 1954,
+    "category": "Family Law",
+    "sections": 60,
+    "description": "Provides for civil marriage irrespective of religion",
+    "key_sections": [
+      "Section 4",
+      "Section 5",
+      "Section 27"
+    ]
+  },
+  {
+    "name": "Guardians and Wards Act",
+    "year": 1890,
+    "category": "Family Law",
+    "sections": 47,
+    "description": "Governs matters relating to guardianship of minors",
+    "key_sections": [
+      "Section 7",
+      "Section 17",
+      "Section 19"
+    ]
+  },
+  {
+    "name": "Indian Easements Act",
+    "year": 1882,
+    "category": "Property Law",
+    "sections": 55,
+    "description": "Governs easements and licenses relating to land",
+    "key_sections": [
+      "Section 4",
+      "Section 15",
+      "Section 52"
+    ]
+  },
+  {
+    "name": "Registration Act",
+    "year": 1908,
+    "category": "Property Law",
+    "sections": 89,
+    "description": "Provides for registration of documents relating to property transactions",
+    "key_sections": [
+      "Section 17",
+      "Section 49",
+      "Section 69"
+    ]
+  },
+  {
+    "name": "Workmen's Compensation Act",
+    "year": 1923,
+    "category": "Labor Law",
+    "sections": 32,
+    "description": "Provides for compensation to workers for injury caused during employment",
+    "key_sections": [
+      "Section 3",
+      "Section 4",
+      "Section 10"
+    ]
+  },
+  {
+    "name": "Industrial Disputes Act",
+    "year": 1947,
+    "category": "Labor Law",
+    "sections": 40,
+    "description": "Provides for investigation and settlement of industrial disputes",
+    "key_sections": [
+      "Section 2",
+      "Section 25F",
+      "Section 25FFF"
+    ]
+  },
+  {
+    "name": "Payment of Wages Act",
+    "year": 1936,
+    "category": "Labor Law",
+    "sections": 26,
+    "description": "Regulates payment of wages to certain classes of employed persons",
+    "key_sections": [
+      "Section 3",
+      "Section 7",
+      "Section 15"
+    ]
+  },
+  {
+    "name": "Minimum Wages Act",
+    "year": 1948,
+    "category": "Labor Law",
+    "sections": 30,
+    "description": "Provides for fixing minimum rates of wages in certain employments",
+    "key_sections": [
+      "Section 3",
+      "Section 12",
+      "Section 20"
+    ]
+  },
+  {
+    "name": "Employees' Provident Funds Act",
+    "year": 1952,
+    "category": "Labor Law",
+    "sections": 17,
+    "description": "Provides for institution of provident funds, pension funds and insurance funds for employees",
+    "key_sections": [
+      "Section 2",
+      "Section 6",
+      "Section 14"
+    ]
+  },
+  {
+    "name": "Trade Unions Act",
+    "year": 1926,
+    "category": "Labor Law",
+    "sections": 33,
+    "description": "Provides for registration and regulation of trade unions",
+    "key_sections": [
+      "Section 4",
+      "Section 6",
+      "Section 15"
+    ]
+  },
+  {
+    "name": "Shops and Establishments Acts",
+    "year": "Various",
+    "category": "Labor Law",
+    "sections": "Varies",
+    "description": "State-specific laws regulating employment in shops and commercial establishments",
+    "key_sections": [
+      "Registration",
+      "Working hours",
+      "Leave provisions"
+    ]
+  },
+  {
+    "name": "Indian Trusts Act",
+    "year": 1882,
+    "category": "Trust Law",
+    "sections": 98,
+    "description": "Defines and amends law relating to private trusts and trustees",
+    "key_sections": [
+      "Section 3",
+      "Section 9",
+      "Section 52"
+    ]
+  },
+  {
+    "name": "Specific Relief Act",
+    "year": 1963,
+    "category": "Civil Law",
+    "sections": 43,
+    "description": "Defines and amends law relating to specific relief",
+    "key_sections": [
+      "Section 10",
+      "Section 12",
+      "Section 20",
+      "Section 34"
+    ]
+  },
+  {
+    "name": "Contempt of Courts Act",
+    "year": 1971,
+    "category": "Court Law",
+    "sections": 20,
+    "description": "Defines and limits powers of courts in punishing contempt",
+    "key_sections": [
+      "Section 2",
+      "Section 12",
+      "Section 15"
+    ]
+  },
+  {
+    "name": "Legal Services Authorities Act",
+    "year": 1987,
+    "category": "Access to Justice",
+    "sections": 30,
+    "description": "Provides for establishment of legal services authorities for free legal aid",
+    "key_sections": [
+      "Section 12",
+      "Section 13",
+      "Section 20"
+    ]
+  },
+  {
+    "name": "Protection of Children from Sexual Offences Act (POCSO)",
+    "year": 2012,
+    "category": "Criminal Law",
+    "sections": 46,
+    "description": "Protects children from offences of sexual assault, harassment and pornography",
+    "key_sections": [
+      "Section 3",
+      "Section 7",
+      "Section 11",
+      "Section 19"
+    ]
+  },
+  {
+    "name": "Juvenile Justice Act",
+    "year": 2015,
+    "category": "Criminal Law",
+    "sections": 113,
+    "description": "Deals with children alleged or found to have committed offences and children in need of care",
+    "key_sections": [
+      "Section 2",
+      "Section 14",
+      "Section 15"
+    ]
+  },
+  {
+    "name": "Prevention of Corruption Act",
+    "year": 1988,
+    "category": "Criminal Law",
+    "sections": 26,
+    "description": "Consolidates and amends law relating to prevention of corruption",
+    "key_sections": [
+      "Section 7",
+      "Section 13",
+      "Section 19"
+    ]
+  },
+  {
+    "name": "Prevention of Money Laundering Act",
+    "year": 2002,
+    "category": "Economic Offences",
+    "sections": 75,
+    "description": "Prevents money-laundering and confiscation of property derived from money-laundering",
+    "key_sections": [
+      "Section 3",
+      "Section 5",
+      "Section 24",
+      "Section 45"
+    ]
+  },
+  {
+    "name": "Benami Transactions (Prohibition) Act",
+    "year": 1988,
+    "category": "Economic Offences",
+    "sections": 72,
+    "description": "Prohibits benami transactions and recovery of benami property",
+    "key_sections": [
+      "Section 2",
+      "Section 3",
+      "Section 53"
+    ]
+  }
+]

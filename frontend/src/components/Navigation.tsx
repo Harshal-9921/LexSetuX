@@ -16,6 +16,7 @@ const Navigation = () => {
         href: user && profile ? (profile.role === 'customer' ? '/client-dashboard' : '/lawyer-dashboard') : "/" 
       },
       { name: "Services", href: "/#services" },
+      { name: "📚 Precedents", href: "/precedents" },
       { name: "About", href: "/about" },
       { name: "Contact", href: "/contact" },
     ];
@@ -109,9 +110,22 @@ const Navigation = () => {
                 
                 {/* User Profile & Logout */}
                 <div className="flex items-center space-x-2 pl-2 border-l border-border">
-                  <span className="text-sm text-muted-foreground hidden xl:inline">
-                    {profile?.full_name || user.email}
-                  </span>
+                  {profile?.role === 'lawyer' ? (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => navigate('/lawyer-profile')}
+                      title="Open lawyer profile page"
+                      className="border-legal-blue/40 text-legal-blue"
+                    >
+                      <Scale className="h-4 w-4" />
+                      <span className="hidden xl:inline">Lawyer Profile</span>
+                    </Button>
+                  ) : (
+                    <span className="text-sm text-muted-foreground hidden xl:inline">
+                      {profile?.full_name || user.email}
+                    </span>
+                  )}
                   <Button
                     variant="ghost"
                     size="sm"
@@ -149,9 +163,16 @@ const Navigation = () => {
           {/* Auth Button - Medium screens */}
           <div className="hidden md:block lg:hidden">
             {user ? (
-              <Button variant="ghost" size="sm" onClick={signOut}>
-                Sign Out
-              </Button>
+              <div className="flex items-center gap-2">
+                {profile?.role === 'lawyer' && (
+                  <Button variant="outline" size="sm" onClick={() => navigate('/lawyer-profile')}>
+                    Lawyer Profile
+                  </Button>
+                )}
+                <Button variant="ghost" size="sm" onClick={signOut}>
+                  Sign Out
+                </Button>
+              </div>
             ) : (
               <Button variant="hero" size="sm" onClick={() => navigate('/auth')}>
                 Sign In
@@ -230,6 +251,20 @@ const Navigation = () => {
                         );
                       })}
                     
+                    {profile?.role === 'lawyer' && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="w-full justify-start"
+                        onClick={() => {
+                          navigate('/lawyer-profile');
+                          setIsMenuOpen(false);
+                        }}
+                      >
+                        <Scale className="h-4 w-4" />
+                        Lawyer Profile
+                      </Button>
+                    )}
                     <Button
                       variant="ghost"
                       size="sm"
